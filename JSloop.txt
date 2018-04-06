@@ -1,0 +1,83 @@
+for (var line = "#"; line.length < 8; line += "#")
+    console.log(line);
+
+for ( var x = 0; x < 100; x++){
+  if(x % 2 == 0){
+    console.log("Fizz");
+  }
+  else if(x % 7 == 0){
+    console.log("FizzBizz");
+  }
+  else{
+  console.log("Bizz");
+  }
+}
+
+for (var i = 0; i < 50; i++){
+  if (i % 2 == 0){
+    console.log("Fizz");
+  }
+  else if (i % 5 == 0){
+    console.log("Fizz" + " " + "Bizz");
+  } else{
+      console.log("Bizz");
+   }
+}
+
+
+for (var i = 0;  i < 10 i++){
+  console.log("I is " + i)
+}
+
+//Print through a string, requires a index if iterate thru string
+var work = "ABCDEFG";
+for (var i = 0; i < work.length; i++){
+  console.log(work[i]);
+}
+
+for (var i = 0; i < 6; i++){
+  console.log("Hello");
+}
+
+var i = 0;
+while (i < 5){
+  console.log("Hello");
+  i++
+}
+
+var i = 0;
+while(i<=25){
+    if (i % 2 == 1){
+       console.log(i)
+}
+i++
+}
+
+for (var i = 0; i <= 25; i++)
+  if (i % 2 == 1){
+  console.log(i);
+}
+
+for (var i=0; i<=25; i++)
+  if(i% !== 0){
+    console.log(i);
+}
+
+var i = 0;
+while(i<=25){
+  if (i%2 !== 0){
+    console.log(i)
+}
+i++
+}
+
+if (fname[0] === lname[0]) &&
+if (age > 20 && age < 30) &&
+if (height > 170) &&
+if (petName.slice(-1) === "y"){
+   console.log("Welcome Comrade");
+} 
+  else{
+    console.log("Welcome");
+}
+

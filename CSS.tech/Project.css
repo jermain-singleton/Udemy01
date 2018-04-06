@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+}
+
+.navbar-light .navbar-brand{
+    color: #cccccc;
+}
+
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #ffffff;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+color: #999999;
+
+}
+
+#mainDiv
+{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #777777;
+}
+

@@ -1,0 +1,11 @@
+mkdir                 #create a folder to store env
+virtualenv .          #creates virtual env
+. \\Scripts\activate  # activates the enviroment
+pip install django
+ls
+django-admin startproject ""  create a project
+django-admin startapp ""  create a app
+python manage.py runserver
+
+
+deactivate   #Leave virtualenv   
